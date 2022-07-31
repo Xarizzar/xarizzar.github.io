@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="App-body">
         <h2>Welcome to Xar's (work in progress) page!</h2>
-        <div className='buttons-list'>
+        <div className='buttons-list d-flex flex-column'>
           <HomePageButtons />
         </div>
       </div>

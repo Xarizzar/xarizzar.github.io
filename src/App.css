@@ -16,6 +16,7 @@
 .hpbutton {
   background-color: #320064 !important;
   border-color: #640033 !important;
+  min-width: 150px;
 }
 
 .hpbutton:hover {
