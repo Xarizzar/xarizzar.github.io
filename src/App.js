@@ -1,8 +1,8 @@
 import './App.css';
 import HomePageButtons from './components/buttons/homePageButtons';
 import { Route, Routes } from "react-router-dom";
-import AboutMe from './pages/AboutMe';
 import LoT2TempStratumGuide from './pages/LoT2-Temperature-Stratum-Guide';
+import AboutMe from './pages/aboutMe';
 
 function App() {
   return (
