@@ -2,6 +2,7 @@ import './App.css';
 import HomePageButtons from './components/buttons/homePageButtons';
 import { Route, Routes } from "react-router-dom";
 import AboutMe from './pages/AboutMe';
+import LoT2TempStratumGuide from './pages/LoT2-Temperature-Stratum-Guide';
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
           <Route path="/about-me" element={
             <div className='white-rounded-border'>
               <AboutMe />
+            </div>
+          } />
+          <Route path="/lot2-temperature-stratum-guide" element={
+            <div className="white-rounded-border">
+              <LoT2TempStratumGuide />
             </div>
           } />
         </Routes>
