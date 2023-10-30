@@ -2,7 +2,7 @@ import './App.css';
 import HomePageButtons from './components/buttons/homePageButtons';
 import { Route, Routes } from "react-router-dom";
 import LoT2TempStratumGuide from './pages/LoT2-Temperature-Stratum-Guide';
-import AboutMe from './pages/aboutMe';
+import AboutMe from './pages/AboutMe';
 
 function App() {
   return (
