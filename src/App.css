@@ -37,6 +37,7 @@
 
 .no-whitespace {
   font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
   white-space: pre-wrap;
   text-align: initial;
 }
