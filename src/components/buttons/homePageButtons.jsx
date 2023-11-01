@@ -7,7 +7,7 @@ class HomePageButtons extends Component {
         { id: "twitter", buttonText: "Twitter", hrefUrl: "https://twitter.com/xarizzar", isLinkFlag: false },
         { id: "twitter_spl", buttonText: "Twitter (Spl clips)", hrefUrl: "https://twitter.com/KuroXar", isLinkFlag: false },
         { id: "youtube", buttonText: "YouTube", hrefUrl: "https://www.youtube.com/channel/UC4iP3qGpEFY-YP9ZsL1ofGA", isLinkFlag: false },
-        { id: "lot2_temp_stratum_guide", buttonText: "LoT2 F13-F15 Guide", hrefUrl: "/lot2-temperature-stratum-guide", isLinkFlag: true, hasDisplayNoneFlag: true }
+        { id: "lot2_temp_stratum_guide", buttonText: "LoT2 F13-F15 Guide", hrefUrl: "/lot2-temperature-stratum-guide", isLinkFlag: true, hasDisplayNoneFlag: false }
     ] } 
     render() { 
         return (
